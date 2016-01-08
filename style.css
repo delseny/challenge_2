@@ -25,10 +25,12 @@ h1{
   margin-left: 47px;
   margin-bottom: 10px;
   font-weight: bold;
+  font-size: 52px;
 }
 
 h5{
   margin-left: 47px;
+  font-size: 13px;
 }
 
 .menu{
@@ -71,11 +73,13 @@ li{
 h2{
   text-align: center;
   font-size: 28px;
-  font-family: 'Terminal Dosis'sans-serif;
+  font-family: 'Terminal Dosis',sans-serif;
   margin-top: 38px;
   margin-bottom: 22px;
   font-weight: bold;
 }
+
+
 
 #milieu{
   text-align: center;
@@ -90,6 +94,7 @@ h2{
 
 p{
   margin-top: 30px;
+  font-size: 13px;
 }
 
 #deco{
@@ -104,7 +109,12 @@ p{
   height: 75px;
 }
 
-
+#old{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 13px;
+  font-family: 'helvetica neue';
+}
 
 
 footer{
@@ -113,4 +123,24 @@ footer{
   background-color: #c0c0c0;
   margin-left: 47px;
   margin-right: 47px;
+}
+
+.four-column{
+  padding: 1em;
+  -moz-column-count: 4;
+  -moz_column-gap: 1 em;
+  -webkit-column-count: 4;
+  -webkit-column-gap:1em;
+  column-count:4;
+  column-gap: 1em;
+  column-count:4;
+  column-gap: 1em;
+}
+
+.column{
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+}
+
 }
