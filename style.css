@@ -12,7 +12,7 @@ body{
 
 main{
   width: 994px;
-  height: 1994px;
+  height: 1750px;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -26,11 +26,14 @@ h1{
   margin-bottom: 10px;
   font-weight: bold;
   font-size: 52px;
+  font-family: 'Terminal Dosis';
 }
 
 h5{
   margin-left: 47px;
   font-size: 13px;
+  font-weight: lighter;
+  font-family: sans-serif;
 }
 
 .menu{
@@ -73,7 +76,7 @@ li{
 h2{
   text-align: center;
   font-size: 28px;
-  font-family: 'Terminal Dosis',sans-serif;
+  font-family: 'Terminal Dosis';
   margin-top: 38px;
   margin-bottom: 22px;
   font-weight: bold;
@@ -84,6 +87,9 @@ h2{
 #milieu{
   text-align: center;
   font-size: 13px;
+  font-weight: lighter;
+  font-size: 13px;
+  font-family: sans-serif;
 }
 
 .text{
@@ -111,9 +117,10 @@ p{
 
 #old{
   text-align: center;
-  padding-top: 20px;
+  padding-top: 25px;
   font-size: 13px;
   font-family: 'helvetica neue';
+  font-weight: bold;
 }
 
 
@@ -125,22 +132,15 @@ footer{
   margin-right: 47px;
 }
 
-.four-column{
-  padding: 1em;
-  -moz-column-count: 4;
-  -moz_column-gap: 1 em;
-  -webkit-column-count: 4;
-  -webkit-column-gap:1em;
-  column-count:4;
-  column-gap: 1em;
-  column-count:4;
-  column-gap: 1em;
-}
-
-.column{
+.archive{
   display: inline-block;
+  width: 24%;
+  height: 235px;
   vertical-align: top;
-  width: 25%;
+  text-align: center;
 }
 
+span{
+  font-size: 15px;
+  font-weight: 400;
 }
